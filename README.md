@@ -119,3 +119,16 @@ This project demonstrates practical experience with:
 I created this project to strengthen my C# and SQL Server skills while gaining experience developing a desktop application that supports business record management and financial transactions.
 
 The project is intended to demonstrate foundational programming, database, and application support skills relevant to entry-level software development and application services positions.
+
+
+## Installation and Setup
+
+1. Install Visual Studio with the **.NET desktop development** workload.
+2. Install Microsoft SQL Server Express and SQL Server Management Studio (SSMS).
+3. Clone or download this GitHub repository.
+4. Open `TaxCollectionTracker.slnx` in Visual Studio.
+5. Connect to `\.\SQLEXPRESS` using SSMS.
+6. Open and execute `TaxCollectionTracker/DatabaseSetup.sql` to create the database, tables, and fictional sample records.
+7. Build and run the application in Visual Studio.
+
+**Note:** The application uses Windows Authentication to connect to SQL Server. The connection string may need to be adjusted for another computer. The setup script has not yet been verified on a clean installation.
