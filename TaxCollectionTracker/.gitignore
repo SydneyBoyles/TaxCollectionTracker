@@ -1,0 +1,22 @@
+﻿
+# Visual Studio temporary files
+.vs/
+*.suo
+*.user
+
+# Build output folders
+bin/
+obj/
+
+# Debugging files
+*.pdb
+
+# Local database files
+*.mdf
+*.ldf
+
+# Temporary files
+*.tmp
+*.log
+
+# Keep source code, documentation, and screenshots
